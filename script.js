@@ -4,17 +4,17 @@ const booksData = [
     id: 1,
     title: 'Princesses Tome 2',
     publisher: 'Hachette',
-    description: 'New edition of Princesses.',
+    description: 'New edition of Princesses',
     progress: '0/100',
     image: 'images/Princesses-2.jpg',
     status: 'new', // Варианты: 'new', 'in-progress', 'done'
-    statusText: 'New',
+    statusText: 'New 🎉',
   },
   {
     id: 2,
     title: 'Les Grands Classiques',
     publisher: 'Hachette',
-    description: 'Collection of iconic characters.',
+    description: 'Collection of iconic characters',
     progress: '24/100',
     image: 'images/Tome11.jpg',
     status: 'in-progress',
@@ -24,7 +24,7 @@ const booksData = [
     id: 3,
     title: 'Famille',
     publisher: 'Hachette',
-    description: 'Ohana means Family.',
+    description: 'Ohana means Family',
     progress: '100/100',
     image: 'images/Famille.jpeg',
     status: 'done',
@@ -39,7 +39,57 @@ const booksData = [
     image: 'images/lovestories.jpeg',
     status: 'done',
     statusText: 'Done ✅',
-  }
+  },
+  {
+    id: 5,
+    title: 'Girl Power',
+    publisher: 'Hachette',
+    description: 'Girls run the world',
+    progress: '0/100',
+    image: 'images/girlpower.jpg',
+    status: 'new', // Варианты: 'new', 'in-progress', 'done'
+    statusText: 'New 🎉',
+  },
+  {
+    id: 6,
+    title: 'Princesses',
+    publisher: 'Hachette',
+    description: 'First ever collection of princesses',
+    progress: '55/100',
+    image: 'images/princesses.jpg',
+    status: 'in-progress', // Варианты: 'new', 'in-progress', 'done'
+    statusText: 'In progress ⏳',
+  },
+  {
+    id: 7,
+    title: 'Mechants',
+    publisher: 'Hachette',
+    description: 'The greatest evil characters',
+    progress: '18/100',
+    image: 'images/mechants.jpg',
+    status: 'in-progress', // Варианты: 'new', 'in-progress', 'done'
+    statusText: 'In progress ⏳',
+  },
+  {
+    id: 8,
+    title: 'Heros & Mechants',
+    publisher: 'Hachette',
+    description: 'Evil vs Hero',
+    progress: '100/100',
+    image: 'images/heros_mechants.jpeg',
+    status: 'done',
+    statusText: 'Done ✅',
+  },
+  {
+    id: 9,
+    title: 'Barbie',
+    publisher: 'Hachette',
+    description: 'Barbies life',
+    progress: '100/100',
+    image: 'images/barbie.jpg',
+    status: 'new',
+    statusText: 'New 🎉',
+  },
 ];
 
 // наш контейнер
