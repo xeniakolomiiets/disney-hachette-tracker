@@ -62,7 +62,7 @@ const booksData = [
   },
   {
     id: 7,
-    title: 'Mechants',
+    title: 'Méchants',
     publisher: 'Hachette',
     description: 'The greatest evil characters',
     progress: '18/100',
@@ -72,7 +72,7 @@ const booksData = [
   },
   {
     id: 8,
-    title: 'Heros & Mechants',
+    title: 'Héros & Méchants',
     publisher: 'Hachette',
     description: 'Evil vs Hero',
     progress: '100/100',
@@ -85,7 +85,7 @@ const booksData = [
     title: 'Barbie',
     publisher: 'Hachette',
     description: 'Barbies life',
-    progress: '100/100',
+    progress: '0/100',
     image: 'images/barbie.jpg',
     status: 'new',
     statusText: 'New 🎉',
