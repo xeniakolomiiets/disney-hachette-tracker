@@ -1,0 +1,71 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney Hachette Color Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключаем наш скрипт -->
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <h1>🎨 Disney Hachette Tracker</h1>
+    <p>My progress in Disney Coloriages Mystères</p>
+  </header>
+
+  <main class="container">
+    <!-- Сдаем место для сетки с карточками -->
+    <div id="cards-grid" class="cards-grid">
+      
+      <!-- Временная карточка для примера (потом её будет создавать JS) -->
+      <div class="card">
+        <div class="card-image">
+          <span class="page-number">0/100</span>
+          <img src="images/Princesses-2.jpg" alt="Princesses Tome 2" class="card-img"/>
+        </div>
+        <div class="card-content">
+          <span class="badge">Hachette</span>
+          <h3 class="character-name">Princesses Tome 2</h3>
+          <p class="book-volume">New edition of Princesses.</p>
+          <button class="status-btn-new">New</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <span class="page-number">24/100</span>
+          <img src="images/Tome11.jpg"
+               alt="Les Grands Classiques"
+               class="card-img"/>
+        </div>
+        <div class="card-content">
+          <span class="badge">Hachette</span>
+          <h3 class="character-name">Les Grands Classiques</h3>
+          <p class="book-volume">Collection of iconic characters.</p>
+          <button class="status-btn">In progress ⏳</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <span class="page-number">100/100</span>
+          <img src="images/Famille.jpeg"
+               alt="Famille"
+               class="card-img"/>
+        </div>
+        <div class="card-content">
+          <span class="badge">Hachette</span>
+          <h3 class="character-name">Famille</h3>
+          <p class="book-volume">Ohana means Family.</p>
+          <button class="status-btn-done">Done ✅</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
