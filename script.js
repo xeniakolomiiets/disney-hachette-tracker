@@ -76,5 +76,18 @@ function renderBooks(books) {
   cardsGrid.innerHTML = html;
 }
 
-// 5. Запуск
+// Запуск
 renderBooks(booksData);
+
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('input', (event) => {
+  const searchQuery = event.target.value.toLowerCase().trim();
+
+  const filteredBooks = booksData.filter((book) => {
+    const titleMatch = book.title.toLowerCase().includes(searchQuery);
+    const descriptionMatch = book.description.toLowerCase().includes(searchQuery);
+
+    return titleMatch || descriptionMatch;
+  });
+  renderBooks(filteredBooks);
+});
